@@ -68,7 +68,7 @@ def main():
         else:
             usage()
 
-    if hosts != '':
+    if hosts:
         nm = nmap.PortScanner()
         port_scan()
     else:
